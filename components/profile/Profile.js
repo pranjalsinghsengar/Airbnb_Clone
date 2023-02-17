@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Text } from "react-native";
 
-class HomePage extends Component {
+class Profile extends Component {
   render() {
     return (
       <View>
-        <Text>Home Page</Text>
+        <Text>Profile</Text>
       </View>
     );
   }
@@ -13,4 +13,4 @@ class HomePage extends Component {
 
 const styles = StyleSheet.create({});
 
-export default HomePage;
+export default Profile;
